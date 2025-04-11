@@ -1,7 +1,7 @@
 """
 Project Name: Hotel Management System
 
-Authors: MANU KRISHNA, SHEBIN SHAMEER
+Authors: MANU KRISHNA
 
 Date: 01-02-2022"""
 
