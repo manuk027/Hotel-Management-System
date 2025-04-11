@@ -1,61 +1,78 @@
 # 🏨 Hotel Management System
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+
+> A simple CLI-based hotel management system using Python and CSV for basic room and customer operations.
+
+---
+
+## 📌 Table of Contents
+
+- [📌 Project Overview](#-project-overview)
+- [🚀 Features](#-features)
+- [🗂️ Data Storage](#️-data-storage)
+- [▶️ How to Run](#️-how-to-run)
+- [📎 Dependencies](#-dependencies)
+- [🖥️ Sample Menu](#️-sample-menu)
+- [📈 Future Improvements](#-future-improvements)
+- [👨‍💻 Author](#-author)
+- [📫 Contact](#-contact)
+
+---
+
 ## 📌 Project Overview
 
-This **Hotel Management System** is a Python-based CLI (Command Line Interface) program that helps manage the operations of a hotel including:
+This **Hotel Management System** is a basic command-line interface application written in Python. It allows the hotel staff to manage:
 
-- Room management
-- Customer details
-- Room issuing and leaving
+- 🛏️ Room details
+- 👤 Customer records
+- 🔁 Room assignment and return
 
-Data is handled using **CSV files**, making it lightweight and easy to understand for beginners.
-
----
-
-## 👨‍💻 Author
-
-**Manu Krishna**  
-📅 Date Started: 01-02-2022
+No external databases or frameworks are required. All data is stored in local CSV files for ease of access and modification.
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
 ### 🛏️ Room Management
-- Add a new room
-- Edit existing room details
-- Delete a room
-- View all rooms
+- Add new rooms
+- Edit room details
+- Delete room entries
+- View all available rooms
 
 ### 👤 Customer Management
-- Add a new customer
-- Update existing customer details
-- Remove a customer
+- Add customer records
+- Update customer details
+- Delete customer records
 - View all customers
 
-### 🔁 Room Assignment
+### 🔁 Room Allocation
 - Issue a room to a customer
-- Leave/return a room
+- Mark a room as vacated
 
 ---
 
-## 🗃️ Data Storage
+## 🗂️ Data Storage
 
-All data is stored in simple **CSV files**:
-- `rooms.csv`
-- `customers.csv`
-- `room_issue.csv`
-- `members.csv` (used to check valid customers while issuing rooms)
+The application uses the following CSV files:
+
+| File Name        | Description                          |
+|------------------|--------------------------------------|
+| `rooms.csv`      | Stores room details                  |
+| `customers.csv`  | Stores customer information          |
+| `room_issue.csv` | Tracks room issue history            |
+| `members.csv`    | Used to verify customer numbers      |
 
 ---
 
 ## ▶️ How to Run
 
-1. Make sure Python is installed.
-2. Place this script in a folder.
-3. Ensure the required CSV files are present or will be created when running:
-    - If the files do not exist, they will be created automatically.
-4. Open a terminal/command prompt.
-5. Run the program using:
-   ```bash
-   python hotel_management.py
+1. ✅ Ensure Python 3.x is installed on your system.
+2. 📁 Place all `.py` and `.csv` files in the same folder.
+3. 💻 Run the script from your terminal or command line:
+
+```bash
+python hotel_management.py
