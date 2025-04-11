@@ -12,9 +12,6 @@
 - [🚀 Features](#-features)
 - [🗂️ Data Storage](#️-data-storage)
 - [▶️ How to Run](#️-how-to-run)
-- [📎 Dependencies](#-dependencies)
-- [👨‍💻 Author](#-author)
-- [📫 Contact](#-contact)
 
 ---
 
