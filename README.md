@@ -72,4 +72,4 @@ The application uses the following CSV files:
 ```bash
 python hotel_management.py
 
-## 👨‍💻 Author
+
