@@ -13,8 +13,6 @@
 - [🗂️ Data Storage](#️-data-storage)
 - [▶️ How to Run](#️-how-to-run)
 - [📎 Dependencies](#-dependencies)
-- [🖥️ Sample Menu](#️-sample-menu)
-- [📈 Future Improvements](#-future-improvements)
 - [👨‍💻 Author](#-author)
 - [📫 Contact](#-contact)
 
@@ -73,22 +71,3 @@ The application uses the following CSV files:
 
 ```bash
 python hotel_management.py
-
-# 🖥️ Sample Menu
-
-```text
-WELCOME TO HOTEL MANAGEMENT SYSTEM
-
-———————————————————————————————————————————————
-| 01. | Add a Room                          |
-| 02. | Edit Room Details                   |
-| 03. | Delete the details of the room      |
-| 04. | View the list of Rooms              |
-| 05. | Add a new customer                  |
-| 06. | Update customer Details             |
-| 07. | Remove customer                     |
-| 08. | View all Customer Details           |
-| 09. | Issue a room                        |
-| 10. | Leave a room                        |
-| 11. | Exit                                |
-———————————————————————————————————————————————
